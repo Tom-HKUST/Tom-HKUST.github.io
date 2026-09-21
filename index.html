@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Personal academic homepage of Xujiang Xiang, PhD student in ECE at HKUST."
+  />
+  <title>Xujiang Xiang | Academic Homepage</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Override the default square/cropped profile-photo style. -->
+  <style>
+    .profile-photo {
+      width: 200px;
+      height: 150px;
+      flex: 0 0 200px;
+      aspect-ratio: 4 / 3;
+      object-fit: contain;
+      object-position: center;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 640px) {
+      .profile-photo {
+        width: 160px;
+        height: 120px;
+        flex-basis: 160px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <header class="hero">
+      <div>
+        <h1>Xujiang Xiang</h1>
+        <p class="subtitle">
+          PhD Student<br />
+          Department of Electronic and Computer Engineering (ECE)<br />
+          The Hong Kong University of Science and Technology (HKUST)
+        </p>
+
+        <nav class="links" aria-label="Profile links">
+          <a href="mailto:xxiangaf@connect.ust.hk">Email</a>
+          <a href="cv.pdf">CV</a>
+          <a href="https://github.com/Tom-HKUST" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </nav>
+      </div>
+
+      <img
+        class="profile-photo"
+        src="photo.jpg"
+        alt="Portrait of Xujiang Xiang"
+      />
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p>
+        I am a PhD student in the Department of Electronic and Computer
+        Engineering (ECE) at the Hong Kong University of Science and
+        Technology (HKUST). I have published several papers at top-tier venues in computer engineering and solid-state circuits, including HPCA, MICRO, and ISSCC. 
+        My selected publications are listed in the attached CV.
+      </p>
+    </section>
+
+    <section>
+      <h2>Research Interests</h2>
+      <ul>
+        <li>Hardware Acceleration for Visual Generative Intelligence</li>
+        <li>GPGPU Architecture</li>
+        <li>SRAM-based Computing-in-Memory (SRAM-CIM) Design</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+
+      <article class="item">
+        <h3>The Hong Kong University of Science and Technology</h3>
+        <p>
+          PhD, Aug. 2025 -<br />
+          Hong Kong, China
+        </p>
+      </article>
+
+      <article class="item">
+        <h3>Tsinghua University</h3>
+        <p>
+          Master's Degree, Sep. 2022 - Jun. 2025<br />
+          Beijing, China
+        </p>
+      </article>
+
+      <article class="item">
+        <h3>Zhejiang University</h3>
+        <p>
+          Bachelor's Degree, Sep. 2018 - Jul. 2022<br />
+          Hangzhou, China
+        </p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <p>
+        <strong>Programming Languages:</strong>
+        Python, CUDA/C++, Triton, Verilog/SystemVerilog, Chisel
+      </p>
+      <p>
+        <strong>Frameworks:</strong>
+        PyTorch, Diffusers, Vortex, GPGPU-SIM, Ramulator
+      </p>
+    </section>
+
+    <section>
+      <h2>Service</h2>
+      <p>
+        Artifact Evaluation, MICRO 2026
+      </p>
+    </section>
+
+    <section>
+      <h2>Honors &amp; Awards</h2>
+      <p>
+        <strong>Outstanding Graduate of Tsinghua University</strong>, 2025
+      </p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        Email:
+        <a href="mailto:xxiangaf@connect.ust.hk">xxiangaf@connect.ust.hk</a>
+      </p>
+      <p>
+        Wechat:
+        <a >Shannon20001015</a>
+      </p>      
+    </section>
+
+    <footer>
+      <p>Last updated: September 2026.</p>
+    </footer>
+  </main>
+</body>
+</html>
