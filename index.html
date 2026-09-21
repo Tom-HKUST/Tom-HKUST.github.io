@@ -3,14 +3,87 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>Xujiang Xiang | HKUST ECE PhD Student | AI Hardware & Computer Architecture</title>
   <meta
     name="description"
-    content="Personal academic homepage of Xujiang Xiang, PhD student in ECE at HKUST."
+    content="Xujiang Xiang is a PhD student in Electronic and Computer Engineering at HKUST, researching AI hardware acceleration, GPGPU architecture, and SRAM-CIM."
   />
-  <title>Xujiang Xiang | Academic Homepage</title>
+  <meta name="author" content="Xujiang Xiang" />
+  <meta
+    name="keywords"
+    content="Xujiang Xiang, HKUST, HKUST ECE, Electronic and Computer Engineering, AI hardware, hardware acceleration, GPGPU architecture, SRAM-CIM, computing-in-memory, computer architecture"
+  />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://Tom-HKUST.github.io/" />
+
+  <!-- Open Graph: useful when the homepage is shared -->
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="Xujiang Xiang | HKUST ECE PhD Student" />
+  <meta
+    property="og:description"
+    content="Academic homepage of Xujiang Xiang, PhD student in ECE at HKUST. Research interests include AI hardware acceleration, GPGPU architecture, and SRAM-CIM."
+  />
+  <meta property="og:url" content="https://Tom-HKUST.github.io/" />
+  <meta property="og:image" content="https://Tom-HKUST.github.io/photo.jpg" />
+  <meta property="og:image:alt" content="Portrait of Xujiang Xiang" />
+  <meta property="profile:first_name" content="Xujiang" />
+  <meta property="profile:last_name" content="Xiang" />
+
+  <!-- Twitter/X preview -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Xujiang Xiang | HKUST ECE PhD Student" />
+  <meta
+    name="twitter:description"
+    content="Academic homepage of Xujiang Xiang, PhD student in ECE at HKUST."
+  />
+  <meta name="twitter:image" content="https://Tom-HKUST.github.io/photo.jpg" />
+
   <link rel="stylesheet" href="style.css" />
 
-  <!-- Override the default square/cropped profile-photo style. -->
+  <!-- Structured data: helps search engines understand that this page represents a person -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://Tom-HKUST.github.io/#person",
+    "name": "Xujiang Xiang",
+    "givenName": "Xujiang",
+    "familyName": "Xiang",
+    "url": "https://Tom-HKUST.github.io/",
+    "image": "https://Tom-HKUST.github.io/photo.jpg",
+    "email": "mailto:xxiangaf@connect.ust.hk",
+    "jobTitle": "PhD Student",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "The Hong Kong University of Science and Technology",
+      "alternateName": "HKUST"
+    },
+    "alumniOf": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Tsinghua University"
+      },
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Zhejiang University"
+      }
+    ],
+    "knowsAbout": [
+      "Hardware Acceleration for Visual Generative Intelligence",
+      "GPGPU Architecture",
+      "SRAM-based Computing-in-Memory",
+      "Computer Architecture",
+      "AI Hardware Acceleration"
+    ],
+    "sameAs": [
+      "https://github.com/Tom-HKUST"
+    ]
+  }
+  </script>
+
+  <!-- Keep the profile image at 4:3 without cropping the original photo. -->
   <style>
     .profile-photo {
       width: 200px;
@@ -43,31 +116,45 @@
           The Hong Kong University of Science and Technology (HKUST)
         </p>
 
-        <nav class="links" aria-label="Profile links">
+        <nav class="links" aria-label="Xujiang Xiang profile links">
           <a href="mailto:xxiangaf@connect.ust.hk">Email</a>
           <a href="cv.pdf">CV</a>
-          <a href="https://github.com/Tom-HKUST" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a
+            href="https://github.com/Tom-HKUST"
+            target="_blank"
+            rel="me noopener noreferrer"
+          >GitHub</a>
         </nav>
       </div>
 
       <img
         class="profile-photo"
         src="photo.jpg"
-        alt="Portrait of Xujiang Xiang"
+        width="200"
+        height="150"
+        alt="Xujiang Xiang, PhD student in ECE at HKUST"
       />
     </header>
 
-    <section>
-      <h2>About</h2>
+    <section id="about">
+      <h2>About Xujiang Xiang</h2>
       <p>
-        I am a PhD student in the Department of Electronic and Computer
-        Engineering (ECE) at the Hong Kong University of Science and
-        Technology (HKUST). I have published several papers at top-tier venues in computer engineering and solid-state circuits, including HPCA, MICRO, and ISSCC. 
-        My selected publications are listed in the attached CV.
+        I am <strong>Xujiang Xiang</strong>, a PhD student in the Department of
+        Electronic and Computer Engineering (ECE) at the Hong Kong University
+        of Science and Technology (HKUST). My research focuses on computer
+        architecture and efficient hardware systems for emerging AI workloads,
+        including hardware acceleration for visual generative intelligence,
+        GPGPU architecture, and SRAM-based computing-in-memory (SRAM-CIM).
+      </p>
+      <p>
+        I have published work at major venues in computer engineering and
+        solid-state circuits, including HPCA, MICRO, and ISSCC. My selected
+        publications and additional research experience are available in my
+        <a href="cv.pdf">CV</a>.
       </p>
     </section>
 
-    <section>
+    <section id="research">
       <h2>Research Interests</h2>
       <ul>
         <li>Hardware Acceleration for Visual Generative Intelligence</li>
@@ -76,13 +163,13 @@
       </ul>
     </section>
 
-    <section>
+    <section id="education">
       <h2>Education</h2>
 
       <article class="item">
-        <h3>The Hong Kong University of Science and Technology</h3>
+        <h3>The Hong Kong University of Science and Technology (HKUST)</h3>
         <p>
-          PhD, Aug. 2025 -<br />
+          PhD, Electronic and Computer Engineering, Aug. 2025 - Present<br />
           Hong Kong, China
         </p>
       </article>
@@ -104,7 +191,7 @@
       </article>
     </section>
 
-    <section>
+    <section id="skills">
       <h2>Skills</h2>
       <p>
         <strong>Programming Languages:</strong>
@@ -116,34 +203,33 @@
       </p>
     </section>
 
-    <section>
+    <section id="service">
       <h2>Service</h2>
-      <p>
-        Artifact Evaluation, MICRO 2026
-      </p>
+      <p>Artifact Evaluation, MICRO 2026</p>
     </section>
 
-    <section>
+    <section id="honors">
       <h2>Honors &amp; Awards</h2>
       <p>
         <strong>Outstanding Graduate of Tsinghua University</strong>, 2025
       </p>
     </section>
 
-    <section>
+    <section id="contact">
       <h2>Contact</h2>
       <p>
         Email:
         <a href="mailto:xxiangaf@connect.ust.hk">xxiangaf@connect.ust.hk</a>
       </p>
       <p>
-        Wechat:
-        <a >Shannon20001015</a>
-      </p>      
+        WeChat: Shannon20001015
+      </p>
     </section>
 
     <footer>
-      <p>Last updated: September 2026.</p>
+      <p>
+        © 2026 Xujiang Xiang · Academic Homepage · Last updated: September 2026.
+      </p>
     </footer>
   </main>
 </body>
